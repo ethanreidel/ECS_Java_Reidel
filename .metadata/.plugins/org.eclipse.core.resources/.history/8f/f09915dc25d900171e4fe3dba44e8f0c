@@ -13,7 +13,7 @@ public class KeyboardInputs
 		System.out.println("What is your name? " );;
 		name = keyboard.next();
 		
-		System.out.println("How old are you? ");
+		System.out.println("How ld are you? ");
 		age = keyboard.nextInt();
 		
 		System.out.println("How many feet tall are you?");
@@ -25,7 +25,7 @@ public class KeyboardInputs
 		System.out.println("How much do you weigh?");
 		weight = keyboard.nextDouble();
 	
-		System.out.println("So your name is " + name + ", you are " + age + " years old, you're " + feet + "'" + inches + " , and you weigh " + weight + " pounds." );
+		System.out.println("So your name is" + name + ", you are " + age + " years old, you're" + feet + "'" + inches + ", and you weigh" + weight + "pounds." );
 		
 		keyboard.close();
 	
