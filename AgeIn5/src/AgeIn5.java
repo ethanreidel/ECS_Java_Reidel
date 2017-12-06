@@ -20,6 +20,6 @@ public class AgeIn5
 				", Imagine that!" );
 		name = keyboard.next();
 	
-	
+		keyboard.close();
 	}
 }
