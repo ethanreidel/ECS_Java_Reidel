@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Magic8Ball.java&apos; to &apos;Randomness.java/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Magic8Ball.java&apos;&#x0D;&#x0A;- Destination element: &apos;Randomness.java/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;Magic8Ball.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Randomness.java/src&lt;" element1="/src&lt;{Magic8Ball.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1513103888611" units="1" version="1.0"/>
+</session>

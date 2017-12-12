@@ -1,7 +1,7 @@
 
 import java.util.Random;
 
-public class Randomness
+public class randomness
 {
 	public static void main( String[] args)
 	{
