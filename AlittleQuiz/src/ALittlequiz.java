@@ -9,31 +9,72 @@ public class ALittlequiz
 	
 		Scanner keyboard = new Scanner(System.in);
 	
-		String capital;
-		int math;
-		double weight;
 		
+		int mathanswer, capitalanswer, weightanswer, finalanswer;
+
 		
 		System.out.println("What is the capital of California" );;
 		System.out.println("         1. San Francisco");
 		System.out.println("         2. Los Angeles");
 		System.out.println("         3. Sacramento");
-		capital = keyboard.next();
+		capitalanswer = keyboard.nextInt();
 	
-		if (capital.equals("San Francisco"))
+		
+		if (capitalanswer < 3)	
 		{
 			System.out.println("That is incorrect, the capital of California is Sacramento.");
 		}	
-		if (capital.equals("Los Angeles"))
+		
+		if (capitalanswer > 2) 
 		{
-			System.out.println("That is incorrect, the capital of California is Sacramento.");
-		if (capital.equals("Sacramento"))
-		{
-			System.out.println("That is correct");
+			System.out.println("That is correct.");
 		}
 		
+			System.out.println("What is 2*5/5" );;
+			System.out.println("         1. 3");
+			System.out.println("         2. 2");
+			System.out.println("         3. 5");	
+			mathanswer = keyboard.nextInt();
 		
-		keyboard.close();
+			
+			if (mathanswer > 2 && mathanswer < 1)
+		{
+				System.out.println("That is incorrect, the answer is 2.");
+		}	
+				
+			if (mathanswer > 1 && mathanswer < 3)
+			{
+					System.out.println("That is correct.");
+			}	
+			
+			
+			System.out.println("How much does a ton weigh?" );;
+			System.out.println("         1. 2000");
+			System.out.println("         2. 4000");
+			System.out.println("         3. 1500");	
+			weightanswer = keyboard.nextInt();
+			
+			if (weightanswer > 1 )
+			{
+					System.out.println("That is incorrect, the answer is 1.");
+			}	
+					
+				if (weightanswer < 2)
+				{
+						System.out.println("That is correct.");
+				}		
+			
+			finalanswer = (weightanswer mathanswer capitalanswer)/3;
+			
+				
+			System.out.println("Overall you got" + finalanswer + "out of 3");	
+				
+					keyboard.close();
+		
 		}
-		}
+
+	private static int (weightanswer(int mathanswer, int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
