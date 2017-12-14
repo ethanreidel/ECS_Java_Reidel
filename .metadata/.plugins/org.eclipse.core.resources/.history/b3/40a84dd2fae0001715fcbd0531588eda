@@ -20,7 +20,7 @@ public class ShorterDoubleDice
 		Random ans2 = new Random();
 		int num2 = 1 + ans2.nextInt(6);
 		
-		do
+		do while (num1 != num2)
 		{
 		
 			System.out.println("HERE COMES THE DICE!");
@@ -34,8 +34,6 @@ public class ShorterDoubleDice
 	
 		sum= num1 + num2;
 		System.out.println("The total is " + sum);
-		num1 = 1 + ans1.nextInt(6);
-		num2 = 1 + ans2.nextInt(6);
 		
 		if ( num1 == num2 )
 		{
