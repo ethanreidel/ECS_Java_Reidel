@@ -10,9 +10,9 @@ public class Dice
 		
 		
 		Random ans1 = new Random();
-		int num1 = 1 + ans1.nextInt(10);
+		int num1 = 1 + ans1.nextInt(6);
 		Random ans2 = new Random();
-		int num2 = 1 + ans2.nextInt(10);
+		int num2 = 1 + ans2.nextInt(6);
 		
 		int sum;
 		
